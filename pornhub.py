@@ -99,11 +99,11 @@ def downloadVideo():
             # responsevideo = requestsHtml(downloadurl)
             # print(type(responsevideo.content))
             print('正在下载{}'.format(dict[key][0]))
-            # with open(r'{}\{}.webm'.format(path,str(dict[key][0])),'wb')as fw1:
+            # with open(r'{}\{}.webm'.format(path,str(dict[key][0])),'ab')as fw1:
             #     fw1.write(responseGIF.content)
             with open(r'{}\{}.txt'.format(path,str(dict[key][0])),'w')as fw2:
                 fw2.write(str(dict[key][2]).strip(r'?'))
-            # with open(r'{}\{}.mp4'.format(path,str(dict[key][0])),'wb')as fw2:
+            # with open(r'{}\{}.mp4'.format(path,str(dict[key][0])),'ab')as fw2:
             #     fw2.write(responsevideo.content)
             print('{}下载完成'.format(dict[key][0]))
         except Exception as e:
