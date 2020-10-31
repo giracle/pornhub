@@ -26,7 +26,7 @@ import json
 eachVideoInfoDict = {}
 def requestsHtml(url):
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
-        "Cookie": "ua=666332998c62658cc43216116351bf1f; platform=pc; bs=ggpena7cmn7htgb440yi1v83tfsxv5rv; ss=332300981904640493; _ga=GA1.2.479303012.1566991944; _gid=GA1.2.1198553738.1566991944; lang=cn; RNLBSERVERID=ded6884; ARSC2_3=1567078355; SMPop_0=1566991992295; desired_username=address7%7Caddress%40giracle.cn; il=v14ElojGl1ZFU5Z6CSo2fSzRRQapztVWoJYxyiLcdVYIcxNTY3MDgyMTc5SHVqS2pEQkpiR1E1R3p0QmhXdHJLY0JjVHRVdWdzeVR4RHZDSkk0Rw..; expiredEnterModalShown=1; performance_timing=video; _gat=1",
+        "Cookie": "更换成自己登录账号的cookie"
         "Referer": "https://cn.pornhub.com/view_video.php?viewkey=ph5d1f0622872de"
     }
     try:
